@@ -1,0 +1,38 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
+#include "ETreeType.h"
+#include "ReceiveLightActor.h"
+#include "LogItem.generated.h"
+
+class UMeshComponent;
+
+UCLASS(Blueprintable)
+class CYUBEVR_API ALogItem : public AReceiveLightActor {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    ETreeType Type;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FVector RelativeCenterLocation;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true))
+    UMeshComponent* Mesh;
+    
+    ALogItem(const FObjectInitializer& ObjectInitializer);
+
+    UFUNCTION(BlueprintCallable)
+    bool UseActorCustomLocation();
+    
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+    void SetActive(ETreeType _Type);
+    
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+    void ResetToPoolBP();
+    
+    UFUNCTION(BlueprintCallable)
+    FVector GetActorCustomLocation();
+    
+};
+

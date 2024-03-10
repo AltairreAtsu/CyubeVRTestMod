@@ -1,0 +1,37 @@
+Add the following 4 lines in the "Plugins" section in the generated "cyubeVR.uproject":
+{
+    "Name": "ChaosEditor",
+    "Enabled": false
+}
+
+{
+    "Name": "SteamVR",
+    "Enabled": true,
+    "SupportedTargetPlatforms": [
+        "Win32",
+        "Win64",
+        "Linux",
+        "PS5", // REMOVE THIS
+    ]
+},
+
+Comment out UFUNCTION() in ReceiveLightActor.h
+    - UseActorCustomLocation line 40
+    - GetActorCustomLocation line 52
+
+Remove TEnumAsByte<> (but not the type inside of it) in:
+    - OnInput inside VRGripInterface.h line 62
+    - OnEndPlay inside VRGripScriptBase.h and its _Implementation version in the .cpp file line 70/35
+    - SetMobilityAllEvent inside DeerCPP.h and its _Implementation version in the .cpp file line 54/16
+
+Comment out UPROPERTY() in:
+    - DragonData_StickySocketStruct.h line 10
+    - AITask_SurfaceNavMoveTo.h line 26
+    - EnvQueryGenerator_DSN_Sphere.h line 26
+
+Add DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnNeedsPathMoveRotationSignature);\n to SurfaceNavMovementComponent.h line 14
+
+Replace line 6 on OnNeedsPathMoveRotationSignatureDelegate.h with:
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_SPARSE_DELEGATE_ThreeParams(FOnNeedsPathMoveRotationSignatureUObject, FName, EnterPropertyName, FVector, TargetLocation, FVector, TargetUpVector, FVector, TargetForwardVector);
+
+If you get the "failed to create version memory for PCH" errors when trying to build or pack, do it again.

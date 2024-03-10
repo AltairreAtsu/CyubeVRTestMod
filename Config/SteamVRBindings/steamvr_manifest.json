@@ -1,0 +1,509 @@
+{
+	"actions": [
+		{
+			"name": "/actions/main/in/controllerleft",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/controllerright",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_camera",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_chest",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_shoulder_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_shoulder_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_elbow_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_elbow_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_knee_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_knee_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_waist",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_foot_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_foot_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_keyboard",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_pose_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_pose_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_back_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_back_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_front_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_front_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_frontr_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_frontr_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_grip_left",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/tracker_handed_grip_right",
+			"type": "pose",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/skeletonleft",
+			"type": "skeleton",
+			"skeleton": "/skeleton/hand/left",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/skeletonright",
+			"type": "skeleton",
+			"skeleton": "/skeleton/hand/right",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/out/vibrateleft",
+			"type": "vibration",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/out/vibrateright",
+			"type": "vibration",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/open_console",
+			"type": "boolean",
+			"requirement": "optional"
+		},
+		{
+			"name": "/actions/main/in/8KScreenshot",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/AdjustBlockPlacementDistance",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Bucket_Hold",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/DrawReleaseArrowRightHand",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/GrabLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/GrabRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Inventory",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/InventoryClick",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/PictureFrameCenterClickLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/PictureFrameCenterClickRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/PlaceBlockRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SelectDownRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SelectUpRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SnapTurnLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SnapTurnRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Teleport_Left_Hold",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Teleport_Right_Hold",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/RadialMenuRight",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/RadialMenuLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/PlaceBlockLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/DrawReleaseArrowLeftHand",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SelectUpLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SelectDownLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/WalkActive",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SmoothTurningActive",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SmoothLocoNotAllowed",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/SmoothTurnNotAllowed",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/GripCapSenseLeft axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/GripCapSenseRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/IndexFingerCurlAxis axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/LeftTouchpadTouch axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/RightTouchpadTouch axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SmoothLoco_X,SmoothLoco_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/SmoothTurn_X,SmoothTurn_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/SqueezeLeft axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SqueezeRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionLeft_X axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionLeft_Y axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TeleportDirectionRight_X,TeleportDirectionRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/TouchpadForceRight axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TouchpadScrollRight_X,TouchpadScrollRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/AdjustBlockPlaceDistanceRight_X,AdjustBlockPlaceDistanceRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/AdjustBlockPlaceDistanceLeft_X,AdjustBlockPlaceDistanceLeft_Y X Y_axis2d",
+			"type": "vector2"
+		}
+	],
+	"action_sets": [
+		{
+			"name": "/actions/main",
+			"usage": "leftright"
+		}
+	],
+	"default_bindings": [
+		{
+			"controller_type": "knuckles",
+			"binding_url": "knuckles.json"
+		},
+		{
+			"controller_type": "vive_controller",
+			"binding_url": "vive_controller.json"
+		},
+		{
+			"controller_type": "vive_cosmos_controller",
+			"binding_url": "vive_cosmos_controller.json"
+		},
+		{
+			"controller_type": "oculus_touch",
+			"binding_url": "oculus_touch.json"
+		},
+		{
+			"controller_type": "holographic_controller",
+			"binding_url": "holographic_controller.json"
+		},
+		{
+			"controller_type": "hpmotioncontroller",
+			"binding_url": "hpmotioncontroller.json"
+		},
+		{
+			"controller_type": "indexhmd",
+			"binding_url": "indexhmd.json"
+		},
+		{
+			"controller_type": "vive",
+			"binding_url": "vive.json"
+		},
+		{
+			"controller_type": "vive_pro",
+			"binding_url": "vive_pro.json"
+		},
+		{
+			"controller_type": "rift",
+			"binding_url": "rift.json"
+		},
+		{
+			"controller_type": "vive_tracker",
+			"binding_url": "vive_tracker.json"
+		},
+		{
+			"controller_type": "vive_tracker_camera",
+			"binding_url": "vive_tracker_camera.json"
+		},
+		{
+			"controller_type": "vive_tracker_waist",
+			"binding_url": "vive_tracker_waist.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_foot",
+			"binding_url": "vive_tracker_left_foot.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_foot",
+			"binding_url": "vive_tracker_right_foot.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_shoulder",
+			"binding_url": "vive_tracker_left_shoulder.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_shoulder",
+			"binding_url": "vive_tracker_right_shoulder.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_elbow",
+			"binding_url": "vive_tracker_left_elbow.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_elbow",
+			"binding_url": "vive_tracker_right_elbow.json"
+		},
+		{
+			"controller_type": "vive_tracker_left_knee",
+			"binding_url": "vive_tracker_left_knee.json"
+		},
+		{
+			"controller_type": "vive_tracker_right_knee",
+			"binding_url": "vive_tracker_right_knee.json"
+		},
+		{
+			"controller_type": "vive_tracker_chest",
+			"binding_url": "vive_tracker_chest.json"
+		},
+		{
+			"controller_type": "vive_tracker_keyboard",
+			"binding_url": "vive_tracker_keyboard.json"
+		},
+		{
+			"controller_type": "vive_tracker_handed",
+			"binding_url": "vive_tracker_handed.json"
+		},
+		{
+			"controller_type": "gamepad",
+			"binding_url": "gamepad.json"
+		}
+	],
+	"localization": [
+		{
+			"language_tag": "en_us",
+			"/actions/main/in/controllerleft": "Left Controller [Pose]",
+			"/actions/main/in/controllerright": "Right Controller [Pose]",
+			"/actions/main/in/tracker_camera": "Camera [Tracker]",
+			"/actions/main/in/tracker_chest": "Chest [Tracker]",
+			"/actions/main/in/tracker_shoulder_left": "Shoulder Left [Tracker]",
+			"/actions/main/in/tracker_shoulder_right": "Shoulder Right [Tracker]",
+			"/actions/main/in/tracker_elbow_left": "Elbow Left [Tracker]",
+			"/actions/main/in/tracker_elbow_right": "Elbow Right [Tracker]",
+			"/actions/main/in/tracker_knee_left": "Knee Left [Tracker]",
+			"/actions/main/in/tracker_knee_right": "Knee Right [Tracker]",
+			"/actions/main/in/tracker_waist": "Waist [Tracker]",
+			"/actions/main/in/tracker_foot_left": "Foot Left [Tracker]",
+			"/actions/main/in/tracker_foot_right": "Foot Right [Tracker]",
+			"/actions/main/in/tracker_keyboard": "Keyboard [Tracker]",
+			"/actions/main/in/tracker_handed_pose_left": "Raw Pose Left [Tracker]",
+			"/actions/main/in/tracker_handed_pose_right": "Raw Pose Right [Tracker]",
+			"/actions/main/in/tracker_handed_back_left": "Handed Back Left [Tracker]",
+			"/actions/main/in/tracker_handed_back_right": "Handed Back Right [Tracker]",
+			"/actions/main/in/tracker_handed_front_left": "Handed Front Left [Tracker]",
+			"/actions/main/in/tracker_handed_front_right": "Handed Front Right [Tracker]",
+			"/actions/main/in/tracker_handed_frontr_left": "Handed Front Rolled Left [Tracker]",
+			"/actions/main/in/tracker_handed_frontr_right": "Handed Front Rolled Right [Tracker]",
+			"/actions/main/in/tracker_handed_grip_left": "Handed Pistol Grip Left [Tracker]",
+			"/actions/main/in/tracker_handed_grip_right": "Handed Pistol Grip Right [Tracker]",
+			"/actions/main/in/skeletonleft": "Skeleton (Left)",
+			"/actions/main/in/skeletonright": "Skeleton (Right)",
+			"/actions/main/out/vibrateleft": "Haptic (Left)",
+			"/actions/main/out/vibrateright": "Haptic (Right)",
+			"/actions/main/in/open_console": "Open Console",
+			"/actions/main/in/8KScreenshot": "8KScreenshot",
+			"/actions/main/in/AdjustBlockPlacementDistance": "AdjustBlockPlacementDistance",
+			"/actions/main/in/Bucket_Hold": "Bucket_Hold",
+			"/actions/main/in/DrawReleaseArrowRightHand": "DrawReleaseArrowRightHand",
+			"/actions/main/in/GrabLeft": "GrabLeft",
+			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/Inventory": "Inventory",
+			"/actions/main/in/InventoryClick": "InventoryClick",
+			"/actions/main/in/PictureFrameCenterClickLeft": "PictureFrameCenterClickLeft",
+			"/actions/main/in/PictureFrameCenterClickRight": "PictureFrameCenterClickRight",
+			"/actions/main/in/PlaceBlockRight": "PlaceBlockRight",
+			"/actions/main/in/SelectDownRight": "SelectDownRight",
+			"/actions/main/in/SelectUpRight": "SelectUpRight",
+			"/actions/main/in/SnapTurnLeft": "SnapTurnLeft",
+			"/actions/main/in/SnapTurnRight": "SnapTurnRight",
+			"/actions/main/in/Teleport_Left_Hold": "Teleport_Left_Hold",
+			"/actions/main/in/Teleport_Right_Hold": "Teleport_Right_Hold",
+			"/actions/main/in/RadialMenuRight": "RadialMenuRight",
+			"/actions/main/in/RadialMenuLeft": "RadialMenuLeft",
+			"/actions/main/in/PlaceBlockLeft": "PlaceBlockLeft",
+			"/actions/main/in/DrawReleaseArrowLeftHand": "DrawReleaseArrowLeftHand",
+			"/actions/main/in/SelectUpLeft": "SelectUpLeft",
+			"/actions/main/in/SelectDownLeft": "SelectDownLeft",
+			"/actions/main/in/WalkActive": "WalkActive",
+			"/actions/main/in/SmoothTurningActive": "SmoothTurningActive",
+			"/actions/main/in/SmoothLocoNotAllowed": "SmoothLocoNotAllowed",
+			"/actions/main/in/SmoothTurnNotAllowed": "SmoothTurnNotAllowed",
+			"/actions/main/in/GripCapSenseLeft axis": "GripCapSenseLeft",
+			"/actions/main/in/GripCapSenseRight axis": "GripCapSenseRight",
+			"/actions/main/in/IndexFingerCurlAxis axis": "IndexFingerCurlAxis",
+			"/actions/main/in/LeftTouchpadTouch axis": "LeftTouchpadTouch",
+			"/actions/main/in/RightTouchpadTouch axis": "RightTouchpadTouch",
+			"/actions/main/in/SmoothLoco_X,SmoothLoco_Y X Y_axis2d": "SmoothLoco",
+			"/actions/main/in/SmoothTurn_X,SmoothTurn_Y X Y_axis2d": "SmoothTurn",
+			"/actions/main/in/SqueezeLeft axis": "SqueezeLeft",
+			"/actions/main/in/SqueezeRight axis": "SqueezeRight",
+			"/actions/main/in/TeleportDirectionLeft_X axis": "TeleportDirectionLeft_X",
+			"/actions/main/in/TeleportDirectionLeft_Y axis": "TeleportDirectionLeft_Y",
+			"/actions/main/in/TeleportDirectionRight_X,TeleportDirectionRight_Y X Y_axis2d": "TeleportDirectionRight",
+			"/actions/main/in/TouchpadForceRight axis": "TouchpadForceRight",
+			"/actions/main/in/TouchpadScrollRight_X,TouchpadScrollRight_Y X Y_axis2d": "TouchpadScrollRight",
+			"/actions/main/in/AdjustBlockPlaceDistanceRight_X,AdjustBlockPlaceDistanceRight_Y X Y_axis2d": "AdjustBlockPlaceDistanceRight",
+			"/actions/main/in/AdjustBlockPlaceDistanceLeft_X,AdjustBlockPlaceDistanceLeft_Y X Y_axis2d": "AdjustBlockPlaceDistanceLeft",
+			"/actions/main": "Main Game Actions"
+		}
+	]
+}
